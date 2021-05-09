@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <title>Hello, world!</title>
 </head>
 <body>
@@ -15,5 +16,6 @@
 
 <script src="{{asset('js/slim.js')}}"></script>
 <script src="{{asset('js/bootstrap.js')}}"></script>
+<script src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
