@@ -43,4 +43,10 @@ class HomeController extends Controller
     public function otherLanguage(){
         return view('babysitter.other-language');
     }
+    public function babysitterTraits(){
+        return view('babysitter.traits');
+    }
+    public function babysitterSmoke(){
+        return view('babysitter.smoke');
+    }
 }

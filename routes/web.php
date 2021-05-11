@@ -28,3 +28,5 @@ Route::get('/address-selector', 'HomeController@addressSelector')->name('address
 Route::get('/babysitter-about', 'HomeController@babysitterAbout')->name('babysitter-about');
 Route::get('/native-language', 'HomeController@nativeLanguage')->name('native-language');
 Route::get('/other-language', 'HomeController@otherLanguage')->name('other-language');
+Route::get('/babysitter-traits', 'HomeController@babysitterTraits')->name('babysitter-traits');
+Route::get('/babysitter-smoke', 'HomeController@babysitterSmoke')->name('babysitter-smoke');
