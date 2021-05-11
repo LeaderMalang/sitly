@@ -29,6 +29,12 @@ class HomeController extends Controller
         return view('webrole');
     }
     public function genderBirthday(){
-        return view('gender-birthday');
+        return view('babysitter.gender-birthday');
+    }
+    public function addressSelector(){
+        return view('babysitter.address-selector');
+    }
+    public function babysitterAbout(){
+        return view('babysitter.about');
     }
 }
