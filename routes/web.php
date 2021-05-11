@@ -26,3 +26,5 @@ Route::get('/webrole', 'HomeController@webRole')->name('webRole');
 Route::get('/gender-birthday', 'HomeController@genderBirthday')->name('gender-birthday');
 Route::get('/address-selector', 'HomeController@addressSelector')->name('address-selector');
 Route::get('/babysitter-about', 'HomeController@babysitterAbout')->name('babysitter-about');
+Route::get('/native-language', 'HomeController@nativeLanguage')->name('native-language');
+Route::get('/other-language', 'HomeController@otherLanguage')->name('other-language');
