@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <title>Hello, world!</title>
+    <title>Welcome</title>
 </head>
 <body>
 @include('layouts.navbar')

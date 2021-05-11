@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.logo{
+    margin-bottom: 1rem;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.welcome-screen{
+    margin-bottom: 2rem;
+}
+.welcome-screen img{
+    width: 100%;
+}
+.btn-primary{
+    background-color: #6abbe6;
+    border-color: #6abbe6;
+    padding: 1rem 0;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+}
