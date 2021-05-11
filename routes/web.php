@@ -30,3 +30,4 @@ Route::get('/native-language', 'HomeController@nativeLanguage')->name('native-la
 Route::get('/other-language', 'HomeController@otherLanguage')->name('other-language');
 Route::get('/babysitter-traits', 'HomeController@babysitterTraits')->name('babysitter-traits');
 Route::get('/babysitter-smoke', 'HomeController@babysitterSmoke')->name('babysitter-smoke');
+Route::get('/babysitter-occupation', 'HomeController@babysitterOccupation')->name('babysitter-occupation');

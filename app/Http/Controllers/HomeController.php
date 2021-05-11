@@ -49,4 +49,7 @@ class HomeController extends Controller
     public function babysitterSmoke(){
         return view('babysitter.smoke');
     }
+    public function babysitterOccupation(){
+        return view('babysitter.occupation');
+    }
 }
