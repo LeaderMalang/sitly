@@ -31,3 +31,4 @@ Route::get('/other-language', 'HomeController@otherLanguage')->name('other-langu
 Route::get('/babysitter-traits', 'HomeController@babysitterTraits')->name('babysitter-traits');
 Route::get('/babysitter-smoke', 'HomeController@babysitterSmoke')->name('babysitter-smoke');
 Route::get('/babysitter-occupation', 'HomeController@babysitterOccupation')->name('babysitter-occupation');
+Route::get('/babysitter-driver-license', 'HomeController@babysitterDriverLicense')->name('babysitter-driver-license');

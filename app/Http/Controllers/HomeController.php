@@ -52,4 +52,7 @@ class HomeController extends Controller
     public function babysitterOccupation(){
         return view('babysitter.occupation');
     }
+    public function babysitterDriverLicense(){
+        return view('babysitter.driver-license');
+    }
 }
