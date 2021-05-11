@@ -16,6 +16,5 @@
 
 <script src="{{asset('js/slim.js')}}"></script>
 <script src="{{asset('js/bootstrap.js')}}"></script>
-<script src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
