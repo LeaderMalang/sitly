@@ -26,3 +26,6 @@ body{
     width: 100%;
     font-weight: 500;
 }
+.guardian-selector .form-check .form-check-input{
+    right: 1rem;
+}

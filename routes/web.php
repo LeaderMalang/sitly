@@ -22,3 +22,4 @@ Route::get('/callback', 'SocialAuthFacebookController@callback');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/webrole', 'HomeController@webRole')->name('webRole');

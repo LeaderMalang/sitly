@@ -13,7 +13,7 @@
                      <h3>Lets Find the best babysitter or job in your area</h3>
                      <p class="lead mb-0 mt-4">To do that we'll ask you a few questions</p>
                      <p class="lead">This only takes a few minutes</p>
-                     <a href="#" class="btn btn-primary">Next</a>
+                     <a href="{{route('webRole')}}" class="btn btn-primary">hello</a>
                  </div>
              </div>
         </div>
