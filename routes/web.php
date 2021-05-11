@@ -23,3 +23,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/webrole', 'HomeController@webRole')->name('webRole');
+Route::get('/gender-birthday', 'HomeController@genderBirthday')->name('gender-birthday');

@@ -28,4 +28,7 @@ class HomeController extends Controller
     public function webRole(){
         return view('webrole');
     }
+    public function genderBirthday(){
+        return view('gender-birthday');
+    }
 }
